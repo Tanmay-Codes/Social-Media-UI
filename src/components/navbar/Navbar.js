@@ -85,7 +85,7 @@ function Navbar({ mode, setMode }) {
         <AudiotrackIcon sx={{ display: { xs: "block", sm: "none" } }} />
         <StyledTextField variant="standard" placeholder=" Search" />
         <Stack direction="row" spacing={1} alignItems="center">
-          <IconButton color="inherit" href={"/user/" + 1 + "/profile"}>
+          <IconButton color="inherit" href={"#/user/:id/profile"}>
             <Tooltip title="Your Profile">
               <Person2Icon />
             </Tooltip>
@@ -195,7 +195,7 @@ function Navbar({ mode, setMode }) {
               <ListItemButton>Account Settings</ListItemButton>
               <ListItemButton>Subscritions</ListItemButton>
               <ListItemButton>Support</ListItemButton>
-              <ListItemButton>Log Out</ListItemButton>
+              <ListItemButton href={"/"}>Log Out</ListItemButton>
             </List>
           </Menu>
           <FormControlLabel
