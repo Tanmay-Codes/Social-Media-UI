@@ -1,3 +1,7 @@
+# See the Demo of the app here
+[Demo](https://tanmay-codes.github.io/SoclcialMedia-Demo/)
+Simply click on login and the Website will load with a dummy data!! Note some of the features are not working, I am still learnign the Node and Express, once the I get the backend ready, I will update the demo.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
